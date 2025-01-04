@@ -13,42 +13,42 @@
  *
  * @author Apache
  * @source {https://raw.githubusercontent.com/apache/httpd/trunk/docs/conf/mime.types}
- * @copyright 2024 The Apache Software Foundation
+ * @copyright 2025 The Apache Software Foundation
  * @license https://www.apache.org/licenses/LICENSE-2.0 Apache
  *
  * @author Blobfolio
  * @source {https://github.com/Blobfolio/righteous-mimes}
- * @copyright 2024 Blobfolio, LLC
+ * @copyright 2025 Blobfolio, LLC
  * @license http://www.wtfpl.net/ WTFPL
  *
  * @author Drupal
  * @source {https://raw.githubusercontent.com/drupal/drupal/8.8.x/core/lib/Drupal/Core/File/MimeType/ExtensionMimeTypeGuesser.php}
- * @copyright 2024 Drupal
+ * @copyright 2025 Drupal
  * @license https://www.drupal.org/about/licensing GPL
  *
  * @author FreeDesktop.org
  * @source {https://cgit.freedesktop.org/xdg/shared-mime-info/plain/freedesktop.org.xml.in}
- * @copyright 2024 FreeDesktop.org
+ * @copyright 2025 FreeDesktop.org
  * @license https://opensource.org/licenses/MIT MIT
  *
  * @author IANA
  * @source {https://www.iana.org/assignments/media-types}
- * @copyright 2024 IETF Trust
+ * @copyright 2025 IETF Trust
  * @license https://www.rfc-editor.org/copyright/ rfc-copyright-story
  *
  * @author Nginx
  * @source {http://hg.nginx.org/nginx/raw-file/default/conf/mime.types}
- * @copyright 2024 Nginx includes_url
+ * @copyright 2025 Nginx includes_url
  * @license https://opensource.org/licenses/BSD-2-Clause BSD
  *
  * @author Tika
  * @source {https://raw.githubusercontent.com/apache/tika/master/tika-core/src/main/resources/org/apache/tika/mime/tika-mimetypes.xml}
- * @copyright 2024 The Apache Software Foundation
+ * @copyright 2025 The Apache Software Foundation
  * @license https://www.apache.org/licenses/LICENSE-2.0 Apache
  *
  * @author WordPress
  * @source {https://raw.githubusercontent.com/WordPress/WordPress/master/wp-includes/functions.php}
- * @copyright 2024 Automattic
+ * @copyright 2025 Automattic
  * @license https://wordpress.org/about/license/ GPLv2
  */
 
@@ -83,9 +83,6 @@ class aliases {
 			'application/x-lotus123',
 			'zz-application/zz-winassoc-123',
 		),
-		'19051'=>array(
-			'application/vnd.ieee.1905',
-		),
 		'1clr'=>array(
 			'application/clr',
 		),
@@ -98,6 +95,9 @@ class aliases {
 		),
 		'323'=>array(
 			'text/h323',
+		),
+		'19051'=>array(
+			'application/vnd.ieee.1905',
 		),
 		'32x'=>array(
 			'application/x-genesis-32x-rom',
@@ -1510,7 +1510,6 @@ class aliases {
 		),
 		'dataless'=>array(
 			'application/vnd.fdsn.seed',
-			'application/vnd.fdsn.mseed',
 		),
 		'davmount'=>array(
 			'application/davmount+xml',
@@ -1543,6 +1542,9 @@ class aliases {
 		),
 		'dcm'=>array(
 			'application/dicom',
+		),
+		'dcmp'=>array(
+			'application/vnd.dcmp+xml',
 		),
 		'dcr'=>array(
 			'application/x-director',
@@ -1855,6 +1857,9 @@ class aliases {
 		),
 		'dsp'=>array(
 			'text/plain',
+		),
+		'dspx'=>array(
+			'application/vnd.openvpi.dspx+json',
 		),
 		'dssc'=>array(
 			'application/dssc+der',
@@ -2649,6 +2654,9 @@ class aliases {
 		'ggb'=>array(
 			'application/vnd.geogebra.file',
 		),
+		'ggp'=>array(
+			'application/vnd.geogebra.pinboard',
+		),
 		'ggs'=>array(
 			'application/vnd.geogebra.slides',
 		),
@@ -2946,6 +2954,9 @@ class aliases {
 			'image/heif',
 			'image/heif-sequence',
 			'image/hevc',
+		),
+		'heics'=>array(
+			'image/heic-sequence',
 		),
 		'heif'=>array(
 			'image/heif',
@@ -3427,6 +3438,12 @@ class aliases {
 			'text/vnd.sun.j2me.app-descriptor',
 			'text/plain',
 		),
+		'jaii'=>array(
+			'image/jaii',
+		),
+		'jais'=>array(
+			'image/jais',
+		),
 		'jam'=>array(
 			'application/vnd.jam',
 		),
@@ -3763,6 +3780,9 @@ class aliases {
 			'application/x-desktop',
 			'application/x-gnome-app-info',
 			'text/plain',
+		),
+		'kdl'=>array(
+			'application/vnd.kdl',
 		),
 		'kexi'=>array(
 			'application/x-kexiproject-sqlite2',
@@ -4845,10 +4865,10 @@ class aliases {
 			'application/x-musescore-portable',
 			'application/zip',
 		),
-		'msd'=>array(
+		'mseed'=>array(
 			'application/vnd.fdsn.mseed',
 		),
-		'mseed'=>array(
+		'mseed3'=>array(
 			'application/vnd.fdsn.mseed',
 		),
 		'mseq'=>array(
@@ -5071,6 +5091,9 @@ class aliases {
 		),
 		'nix'=>array(
 			'text/x-nix',
+			'text/plain',
+		),
+		'nlogo'=>array(
 			'text/plain',
 		),
 		'nlu'=>array(
@@ -5675,6 +5698,7 @@ class aliases {
 		'pfm'=>array(
 			'application/x-font-type1',
 			'application/x-font-printer-metric',
+			'image/x-pfm',
 		),
 		'pfr'=>array(
 			'application/font-tdpfr',
@@ -6097,6 +6121,9 @@ class aliases {
 		),
 		'pxn'=>array(
 			'image/x-raw-logitech',
+		),
+		'pxr'=>array(
+			'image/x-pxr',
 		),
 		'py'=>array(
 			'text/x-python',
@@ -6796,6 +6823,7 @@ class aliases {
 			'text/plain',
 		),
 		'sct'=>array(
+			'image/x-sct',
 			'text/scriptlet',
 		),
 		'scurl'=>array(
@@ -6875,7 +6903,6 @@ class aliases {
 		),
 		'seed'=>array(
 			'application/vnd.fdsn.seed',
-			'application/vnd.fdsn.mseed',
 		),
 		'sem'=>array(
 			'application/vnd.sealed.eml',
@@ -7104,6 +7131,12 @@ class aliases {
 		'skd'=>array(
 			'application/vnd.koan',
 			'application/x-koan',
+		),
+		'sketch'=>array(
+			'application/vnd.sketchometry',
+		),
+		'sketcho'=>array(
+			'application/vnd.sketchometry',
 		),
 		'skm'=>array(
 			'application/vnd.koan',
@@ -8063,6 +8096,9 @@ class aliases {
 		'uc2'=>array(
 			'application/x-uc2-compressed',
 		),
+		'uccs'=>array(
+			'application/uccs+cbor',
+		),
 		'udeb'=>array(
 			'application/vnd.debian.binary-package',
 			'application/x-archive',
@@ -8087,6 +8123,9 @@ class aliases {
 		'uil'=>array(
 			'text/x-uil',
 			'text/plain',
+		),
+		'ujcs'=>array(
+			'application/ujcs+json',
 		),
 		'uls'=>array(
 			'text/iuls',
@@ -8469,6 +8508,9 @@ class aliases {
 		),
 		'vsl'=>array(
 			'text/plain',
+		),
+		'vsp4'=>array(
+			'application/vnd.vocalshaper.vsp4',
 		),
 		'vss'=>array(
 			'application/vnd.visio',
@@ -8888,6 +8930,9 @@ class aliases {
 		'wz'=>array(
 			'application/x-wingz',
 		),
+		'x-wav'=>array(
+			'audio/wav',
+		),
 		'x32'=>array(
 			'application/x-authorware-bin',
 		),
@@ -9270,6 +9315,7 @@ class aliases {
 			'application/vnd.cyclonedx+xml',
 			'application/vnd.eprints.data+xml',
 			'application/vnd.etsi.pstn+xml',
+			'application/vnd.fdsn.stationxml+xml',
 			'application/vnd.fujifilm.fb.jfi+xml',
 			'application/vnd.gentoo.catmetadata+xml',
 			'application/vnd.gentoo.pkgmetadata+xml',
@@ -9785,6 +9831,7 @@ class aliases {
 		'davmount'=>16,
 		'dbk'=>16,
 		'dcl'=>8,
+		'dcmp'=>16,
 		'dcurl'=>8,
 		'dd2'=>16,
 		'ddf'=>16,
@@ -9816,6 +9863,7 @@ class aliases {
 		'dsc'=>8,
 		'dsl'=>8,
 		'dsp'=>8,
+		'dspx'=>2,
 		'dsw'=>8,
 		'dtb'=>24,
 		'dtd'=>8,
@@ -10101,6 +10149,7 @@ class aliases {
 		'nimble'=>8,
 		'nims'=>8,
 		'nix'=>8,
+		'nlogo'=>8,
 		'not'=>8,
 		'notebook'=>32,
 		'notice'=>8,
@@ -10374,6 +10423,7 @@ class aliases {
 		'ufraw'=>16,
 		'ui'=>16,
 		'uil'=>8,
+		'ujcs'=>2,
 		'uls'=>8,
 		'uo'=>16,
 		'uoml'=>16,
