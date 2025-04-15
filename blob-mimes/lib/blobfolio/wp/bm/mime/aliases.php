@@ -868,6 +868,10 @@ class aliases {
 		'bsp'=>array(
 			'model/vnd.valve.source.compiled-map',
 		),
+		'bst'=>array(
+			'application/buildstream+yaml',
+			'application/yaml',
+		),
 		'btf'=>array(
 			'image/prs.btif',
 		),
@@ -1162,6 +1166,11 @@ class aliases {
 		),
 		'cjs'=>array(
 			'application/node',
+			'application/javascript',
+			'application/typescript',
+			'application/x-javascript',
+			'text/javascript',
+			'text/jscript',
 		),
 		'cl'=>array(
 			'application/simple-filter+xml',
@@ -1188,6 +1197,9 @@ class aliases {
 		),
 		'cld'=>array(
 			'model/vnd.cld',
+		),
+		'clip'=>array(
+			'image/vnd.clip',
 		),
 		'clj'=>array(
 			'text/x-clojure',
@@ -1428,6 +1440,10 @@ class aliases {
 		'ctab'=>array(
 			'chemical/x-cactvs-binary',
 		),
+		'cts'=>array(
+			'application/typescript',
+			'application/x-executable',
+		),
 		'ctx'=>array(
 			'chemical/x-ctx',
 		),
@@ -1636,6 +1652,9 @@ class aliases {
 		'dicomdir'=>array(
 			'application/dicom',
 		),
+		'did'=>array(
+			'application/did',
+		),
 		'dif'=>array(
 			'application/dif+xml',
 			'application/xml',
@@ -1764,6 +1783,10 @@ class aliases {
 		),
 		'docjson'=>array(
 			'application/vnd.document+json',
+		),
+		'dockerfile'=>array(
+			'text/x-dockerfile',
+			'text/plain',
 		),
 		'docm'=>array(
 			'application/vnd.ms-word.document.macroenabled.12',
@@ -3595,7 +3618,7 @@ class aliases {
 		'js'=>array(
 			'application/javascript',
 			'application/node',
-			'application/x-executable',
+			'application/typescript',
 			'application/x-javascript',
 			'text/javascript',
 			'text/jscript',
@@ -3608,7 +3631,7 @@ class aliases {
 		'jsm'=>array(
 			'text/javascript',
 			'application/javascript',
-			'application/x-executable',
+			'application/typescript',
 			'application/x-javascript',
 			'text/jscript',
 		),
@@ -4049,9 +4072,15 @@ class aliases {
 		'lostxml'=>array(
 			'application/lost+xml',
 		),
+		'lot'=>array(
+			'video/lottie+json',
+		),
 		'lrf'=>array(
 			'application/octet-stream',
 			'application/x-sony-bbeb',
+			'video/mp4',
+			'video/mp4v-es',
+			'video/x-m4v',
 		),
 		'lrm'=>array(
 			'application/vnd.ms-lrm',
@@ -4495,7 +4524,7 @@ class aliases {
 		'mjs'=>array(
 			'javascript/module',
 			'application/javascript',
-			'application/x-executable',
+			'application/typescript',
 			'application/x-javascript',
 			'text/ecmascript',
 			'text/javascript',
@@ -4943,6 +4972,8 @@ class aliases {
 		),
 		'mts'=>array(
 			'model/vnd.mts',
+			'application/typescript',
+			'application/x-executable',
 			'video/mp2t',
 		),
 		'multitrack'=>array(
@@ -5160,7 +5191,7 @@ class aliases {
 		'nu'=>array(
 			'application/x-nuscript',
 			'application/x-executable',
-			'text/x-nu',
+			'text/x-nushell',
 		),
 		'numbers'=>array(
 			'application/vnd.apple.numbers',
@@ -5545,6 +5576,7 @@ class aliases {
 		),
 		'pac'=>array(
 			'application/x-ns-proxy-autoconfig',
+			'text/javascript',
 		),
 		'pack'=>array(
 			'application/x-java-pack200',
@@ -5728,6 +5760,9 @@ class aliases {
 			'application/pgp-signature',
 			'text/plain',
 		),
+		'phm'=>array(
+			'image/x-phm',
+		),
 		'php'=>array(
 			'text/plain',
 			'application/x-httpd-php',
@@ -5797,6 +5832,10 @@ class aliases {
 		),
 		'pkpass'=>array(
 			'application/vnd.apple.pkpass',
+			'application/zip',
+		),
+		'pkpasses'=>array(
+			'application/vnd.apple.pkpasses',
 			'application/zip',
 		),
 		'pkr'=>array(
@@ -6101,6 +6140,8 @@ class aliases {
 			'application/vnd.ms-publisher',
 			'application/x-mspublisher',
 			'application/x-ole-storage',
+			'text/plain',
+			'text/x-ssh-public-key',
 		),
 		'pvb'=>array(
 			'application/vnd.3gpp.pic-bw-var',
@@ -6762,6 +6803,9 @@ class aliases {
 			'text/x-scala',
 			'text/plain',
 		),
+		'scap'=>array(
+			'application/x-pcapng',
+		),
 		'scd'=>array(
 			'application/vnd.scribus',
 			'application/x-msschedule',
@@ -6855,8 +6899,12 @@ class aliases {
 			'application/x-starimpress',
 		),
 		'sdf'=>array(
+			'application/sdf+json',
 			'application/vnd.kinar',
 			'chemical/x-mdl-sdfile',
+		),
+		'sdfjson'=>array(
+			'application/sdf+json',
 		),
 		'sdkd'=>array(
 			'application/vnd.solent.sdkm+xml',
@@ -7982,6 +8030,8 @@ class aliases {
 		),
 		'ts'=>array(
 			'text/vnd.trolltech.linguist',
+			'application/typescript',
+			'application/x-executable',
 			'application/x-linguist',
 			'application/xml',
 			'text/texmacs',
@@ -8073,8 +8123,9 @@ class aliases {
 			'application/x-xz',
 		),
 		'typ'=>array(
-			'text/x-typst',
+			'text/vnd.typst',
 			'text/plain',
+			'text/x-typst',
 		),
 		'types'=>array(
 			'text/plain',
@@ -8417,6 +8468,9 @@ class aliases {
 		'vivo'=>array(
 			'video/vnd.vivo',
 			'video/vivo',
+		),
+		'vjj'=>array(
+			'application/voucher-jws+json',
 		),
 		'vlc'=>array(
 			'audio/x-mpegurl',
@@ -8906,6 +8960,7 @@ class aliases {
 			'application/vnd.webturbo',
 		),
 		'wv'=>array(
+			'application/vnd.wantverse',
 			'application/vnd.wv.csp+wbxml',
 			'audio/x-wavpack',
 		),
@@ -9249,7 +9304,6 @@ class aliases {
 		'xltx'=>array(
 			'application/vnd.openxmlformats-officedocument.spreadsheetml.template',
 			'application/vnd.ms-office',
-			'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
 			'application/zip',
 		),
 		'xlw'=>array(
@@ -9602,6 +9656,9 @@ class aliases {
 			'application/vnd.youtube.yt',
 			'application/zip',
 		),
+		'yuv'=>array(
+			'video/vnd.planar',
+		),
 		'z'=>array(
 			'application/x-font',
 		),
@@ -9795,6 +9852,7 @@ class aliases {
 		'cfml'=>8,
 		'cgi'=>8,
 		'changelog'=>8,
+		'cjs'=>8,
 		'cl'=>24,
 		'classpath'=>8,
 		'clj'=>8,
@@ -9853,6 +9911,7 @@ class aliases {
 		'doc'=>20,
 		'docbook'=>16,
 		'docjson'=>2,
+		'dockerfile'=>8,
 		'docm'=>20,
 		'docx'=>36,
 		'dot'=>28,
@@ -10060,6 +10119,7 @@ class aliases {
 		'log'=>8,
 		'lostsyncxml'=>16,
 		'lostxml'=>16,
+		'lot'=>2,
 		'lsp'=>8,
 		'ltx'=>8,
 		'lua'=>8,
@@ -10195,6 +10255,7 @@ class aliases {
 		'oxt'=>32,
 		'p'=>8,
 		'p7s'=>8,
+		'pac'=>8,
 		'pages'=>32,
 		'pas'=>8,
 		'patch'=>8,
@@ -10212,6 +10273,7 @@ class aliases {
 		'phps'=>8,
 		'pkg'=>16,
 		'pkpass'=>32,
+		'pkpasses'=>32,
 		'pkr'=>8,
 		'pl'=>8,
 		'pls'=>16,
@@ -10243,6 +10305,7 @@ class aliases {
 		'ps1'=>8,
 		'pskcxml'=>16,
 		'pst'=>4,
+		'pub'=>8,
 		'pxd'=>8,
 		'pxi'=>8,
 		'py'=>8,
@@ -10309,6 +10372,8 @@ class aliases {
 		'scss'=>8,
 		'sct'=>8,
 		'scurl'=>8,
+		'sdf'=>2,
+		'sdfjson'=>2,
 		'sdkd'=>16,
 		'sdkm'=>16,
 		'sdp'=>8,
@@ -10450,6 +10515,7 @@ class aliases {
 		'vfk'=>8,
 		'vhd'=>8,
 		'vhdl'=>8,
+		'vjj'=>2,
 		'vlc'=>8,
 		'vm'=>8,
 		'vrm'=>8,
