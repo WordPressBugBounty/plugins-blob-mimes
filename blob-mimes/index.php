@@ -6,7 +6,7 @@
  * phpcs:disable SlevomatCodingStandard.TypeHints.ReturnTypeHint.MissingNativeTypeHint
  *
  * @package blob-mimes
- * @version 1.4.1
+ * @version 1.4.2
  *
  * @see {https://core.trac.wordpress.org/ticket/39963}
  * @see {https://core.trac.wordpress.org/ticket/40175}
@@ -17,7 +17,7 @@
  * Plugin Name: Lord of the Files: Enhanced Upload Security
  * Plugin URI: https://wordpress.org/plugins/blob-mimes/
  * Description: This plugin expands file-related security during the upload process.
- * Version: 1.4.1
+ * Version: 1.4.2
  * Text Domain: blob-mimes
  * Domain Path: /languages/
  * Author: Blobfolio, LLC
