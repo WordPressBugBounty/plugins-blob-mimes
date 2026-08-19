@@ -3,9 +3,9 @@ Contributors: blobfolio
 Donate link: https://blobfolio.com/donate.html
 Tags: mime, SVG, file validation, security plugin, upload security
 Requires at least: 5.2
-Tested up to: 6.8
+Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 1.4.2
+Stable tag: 1.4.3
 License: WTFPL
 License URI: http://www.wtfpl.net/
 
@@ -80,6 +80,11 @@ This plugin does not make use of or collect any "Personal Data".
 
 == Changelog ==
 
+= 1.4.3 =
+* [Docs] Bump "Tested up to" version to 7.1.
+* [Misc] Update MIME database.
+* [Fix] PHP 8.5 deprectation warning.
+
 = 1.4.2 =
 * [Misc] Update MIME database.
 
@@ -90,13 +95,13 @@ This plugin does not make use of or collect any "Personal Data".
 * [Misc] Update MIME database.
 
 = 1.3.21 =
-* [Misc] Update MIME database.
-
-= 1.3.20 =
 * [Misc] Update MIME database.
 
 == Upgrade Notice ==
 
+= 1.4.3 =
+This release updates the MIME database, and improves PHP 8.5 compatibility.
+
 = 1.4.2 =
 This release updates the MIME database.
 
@@ -107,7 +112,4 @@ This release updates the MIME database.
 This release updates the MIME database.
 
 = 1.3.21 =
-This release updates the MIME database.
-
-= 1.3.20 =
 This release updates the MIME database.

@@ -430,7 +430,10 @@ class mime {
 			) {
 				$finfo = \finfo_open(\FILEINFO_MIME_TYPE);
 				$real_mime = \finfo_file($finfo, $file);
-				\finfo_close($finfo);
+				if (\PHP_VERSION_ID < 80000) {
+					// phpcs:ignore
+					\finfo_close($finfo);
+				}
 				if ($real_mime) {
 					// Fix a file info duplication bug.
 					$real_mime = static::_fileinfo_77784(\strval($real_mime));
